@@ -1,9 +1,13 @@
+import Header from "./components/Header";
+
 function App() {
 
   return (
-    <>
-      <h1>Logind maz</h1>
-    </>
+    <main className="border border-White w-[375px] m-auto">
+      <section className="bg-Navy-850">
+        <Header />
+      </section>
+    </main>
   )
 }
 
